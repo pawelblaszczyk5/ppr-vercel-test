@@ -3,7 +3,7 @@ import { redirect } from "next/navigation";
 
 const getStableRandomNumber2 = unstable_cache(
   async () => {
-    await new Promise((res) => setTimeout(res, 5000));
+    await new Promise((res) => setTimeout(res, 2000));
 
     return Math.random();
   },
