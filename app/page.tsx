@@ -23,6 +23,7 @@ const Home = async () => {
   return (
     <main className="flex min-h-screen flex-col items-center justify-evenly p-24">
       <p>Stable random number: {await getStableRandomNumber()}</p>
+      <p>{process.version}</p>
       <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium,
         officiis mollitia nulla quae neque corrupti, tempora ut quo modi ipsum
